@@ -48,9 +48,10 @@ div.absolute {
 	height: 550px;
 	background-image: url('img/final.jpg');
 	font-family: Garamond, serif;
-	font-size: 28pt;
+	font-size: 32pt;
 	text-align: center;
 	display: flex;
+	font-style: italic;
 	justify-content: center;
 	align-items:  center;
 }
@@ -59,7 +60,8 @@ div.absolute {
 	height: 550px;
 	background-image: url('Screen Shot 2016-11-09 at 1.21.11 PM.png');
 	font-family: Garamond, serif;
-	font-size: 28pt;
+	font-size: 32pt;
+	font-style: italic;
 	border-width: 4pt;
 	text-align: center;
 	display: flex;
