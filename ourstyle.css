@@ -2,7 +2,7 @@
 #mygrid{
  display:grid;
  grid-template-columns:40% 60%;
- grid-template-rows:35vw 40vw 35vw;
+ grid-template-rows:35vw 35vw 35vw;
  margin:3vw;
 }
 .header{
@@ -17,36 +17,22 @@
  align-items: center;
 }
 body{
-    background-color: violet;
+    background-image: url(space2.PNG);
   }
-.slide2{
-    width: 100%;
-    height: 800px;
-    background-image: url('summer.gif');
-    font-family: Garamond, serif;
-    border-width: thick;
-    text-align: center;
-}
-div.absolute{
-    position: absolute;
-    top: 800px;
-    left: 250px;
-    width: 500px;
-    height: 200px;
-    border: 3px solid #FFF;
-}
+
+
 button{
     margin:5vw;
-    width:15vw;
+    width:10vw;
     height:6vw;
     border-radius:20px;
     font-size:2vw;
     border:none;
     text-align:center;
     color: white;
-    background-color:rgb(93, 57, 255);
+    background-color:rgb(107, 68, 180);
 }
 
 button:hover{
-    background-color:rgb(95, 159, 255);
+    background-color:rgb(118, 152, 204);
 }
