@@ -19,7 +19,11 @@
 body{
     background-image: url(space2.PNG);
   }
-
+#text1{
+    text-align: center;
+    font-family: Garamond, serif;
+    size: 9px; 
+}
 
 button{
     margin:5vw;
