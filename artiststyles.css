@@ -23,7 +23,7 @@ h1{
 }
 h3{
 	display: block;
-  	font-size: 1.5em;
+  	font-size: 1.37em;
 	font-family: Garamond, serif;
 }
 #slide3{
@@ -94,7 +94,7 @@ button{
     margin:5vw;
     width:10vw;
     height:6vw;
-    border-radius:20px;
+    border-radius:10px;
     font-size:2vw;
     border:none;
     text-align:center;
