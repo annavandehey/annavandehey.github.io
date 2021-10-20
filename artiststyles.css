@@ -26,7 +26,7 @@
 #slide4{
 	width: 100%;
 	height: 1300px;
-	background-image: url(img/static.png);
+	background-image:  url('3-MBCBFTW_7217.jpg');
 	font-family: Garamond, serif;
 	color: white;
 	text-align: center;
@@ -55,7 +55,7 @@ div.absolute {
 #anna_response{
 	width: 100%;
 	height: 750px;
-	background-image: url(img/final.jpg);
+	background-image: url('img/final.jpg');
 	font-family: Garamond, serif;
 	text-align: center;
 	display: flex;
