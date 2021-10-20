@@ -19,7 +19,7 @@
 .slide2{
     width: 100%;
     height: 800px;
-    background-image: url('summer.gif')
+    background-image: url('summer.gif');
     font-family: Garamond, serif;
     border-width: thick;
     text-align: center;
