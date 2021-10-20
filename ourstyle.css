@@ -1,5 +1,5 @@
 
-.mygrid{
+#mygrid{
  display:grid;
  grid-template-columns:40% 60%;
  grid-template-rows:35vw 40vw 35vw;
