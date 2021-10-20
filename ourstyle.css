@@ -16,6 +16,9 @@
  justify-content: center;
  align-items: center;
 }
+body{
+    background-color: violet;
+  }
 .slide2{
     width: 100%;
     height: 800px;
@@ -31,4 +34,19 @@ div.absolute{
     width: 500px;
     height: 200px;
     border: 3px solid #FFF;
+}
+button{
+    margin:5vw;
+    width:15vw;
+    height:6vw;
+    border-radius:20px;
+    font-size:2vw;
+    border:none;
+    text-align:center;
+    color: white;
+    background-color:rgb(93, 57, 255);
+}
+
+button:hover{
+    background-color:rgb(95, 159, 255);
 }
