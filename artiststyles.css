@@ -18,7 +18,7 @@
 #slide3{
 	width: 100%;
 	height: 750px;
-	background-image: url('img/space2.PNG');
+	background-color: black;
 	font-family: Garamond, serif;
 	text-align: center;
 	display: flex;
