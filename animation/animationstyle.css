@@ -1,0 +1,72 @@
+
+
+h1{
+	display: block; 
+	font-size: 2em; 
+	font-weight: bold;
+	font-family: Garamond, serif;
+}
+h3{
+	display: block;
+  	font-size: 1.37em;
+	font-family: Garamond, serif;
+}
+
+
+
+
+button{
+    margin:5vw;
+    width:10vw;
+    height:6vw;
+    position: absolute;
+    border-radius:10px;
+    font-size:2vw;
+    border:none;
+    text-align:center;
+    color: white;
+    background-color:rgb(30, 66, 16);
+    transition: 2s;
+}
+button:hover{
+    background-color:rgb(4, 39, 22);
+
+
+.banditbody{
+	position: absolute;
+    height: 500px;
+    width: 500px;
+
+
+
+}
+.tail{
+	position:absolute;
+    height: 100px;
+    width: 500px;
+}
+.happyface{
+	position: absolute;
+    height: 700px;
+    width: 500px;
+}
+.pillow{
+	position:absolute;
+    height: 700px;
+    width: 500px;
+}
+.bug{
+	position:absolute;
+    height: 700px;
+    width: 500px;
+}
+.veryangry{
+	position:absolute;
+    height: 700px;
+    width: 500px;
+}
+.angry{
+	position:absolute;
+    height: 700px;
+    width: 500px;
+}

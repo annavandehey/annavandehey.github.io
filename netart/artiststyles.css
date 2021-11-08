@@ -104,9 +104,27 @@ button{
 button:hover{
     background-color:rgb(118, 152, 204);
 }
-#mygrid{
-	display:grid;
-	grid-template-columns:50% 50%;
-	grid-template-rows:35vw 35vw 35vw;
-	margin:3vw;
-   }
+
+//*// Elements to animate//*//
+.banditbody{
+	position: center;
+
+}
+.tail{
+	position:center;
+}
+.happyface{
+	position: center;
+}
+.pillow{
+	position:center;
+}
+.bug{
+	position:center;
+}
+.veryangry{
+	position:center;
+}
+.angry{
+	position:center;
+}
