@@ -34,39 +34,39 @@ button:hover{
 
 .banditbody{
 	position: absolute;
-    height: 500px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 
 
 
 }
 .tail{
 	position:absolute;
-    height: 100px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 .happyface{
 	position: absolute;
-    height: 700px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 .pillow{
 	position:absolute;
-    height: 700px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 .bug{
 	position:absolute;
-    height: 700px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 .veryangry{
 	position:absolute;
-    height: 700px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
 .angry{
 	position:absolute;
-    height: 700px;
-    width: 500px;
+    height: 40%;
+    width: 40%;
 }
