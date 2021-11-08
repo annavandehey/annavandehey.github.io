@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title style="text-align: center;"> Olia Lialina </title>
+    <link href="artiststyles.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div style="background-color: black;"></div>
+</head>
+
+
+<body style= "background-color: black;
+<h1 style="color: white;">Her Influences</h1>
+  <section id="mygrid">
+    <div ><img src="img/Olia6.jpg.opdownload" alt="pic1" style="height: 100%; width: 100%;"class="image" ></div>
+    <div class="slide3"><p id="slide3">
+      "If something is the net, it should speak net language"
+    </p></div>
+    <div class="slide3"><p id="slide3"> 
+      "Still spends lots of time conducting research and writing at instutes like Columbia. Editting and illistrating cartoons remains a passion for her. Also involved in the fashion industry."  
+    </p></div>
+    <div ><img src="img/Olia4.jpg" alt="pic2" style="height: 120%; width: 100%;"class="image" ></div>
+    <div ><img src="img/Olia5.jpg.opdownload" alt="pic3" style="height:100% ;width: 100%;"class="image" ></div>
+    <div class="slide3"><p id="slide3">
+      "Aims to break the conventions of the internet. Using the internet as a non-conventional communicaton tool. She's inspired today by the internet and communication through memes"
+    </p></div>
+</section>
+</section>
+
+
+<section id="slidescontrol">
+  <a href="olialialina.html"> <button>BACK</button></a>
+  <a href="page4.html"> <button>NEXT</button></a>
+</section>
+</html>
