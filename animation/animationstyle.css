@@ -41,6 +41,8 @@ h1{
 	font-weight: bold;
 	font-family: Garamond, serif;
     position: absolute;
+    justify-content: center;
+    align-items: center;
 }
 h3{
 	display: block;
@@ -150,7 +152,7 @@ button:hover{
 
 }
 @keyframes fly{
-    from{transform:translate3D(-800px,0px,0px);}
+    from{transform:translate3D(-1000px,0px,0px);}
     to{transform: translate3D(1000px,200px,0px);}
 
 }
