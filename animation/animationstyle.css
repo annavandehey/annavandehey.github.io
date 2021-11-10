@@ -1,10 +1,18 @@
-body{
+html, body{
     background-color: cornflowerblue;
     height: 100%;
+    overflow: hidden;
     width:100%;
-    overflow:hidden;
     margin:0cm
+    
+
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 #header{
 	width: 100%;
 	height: 500px;
@@ -15,12 +23,24 @@ body{
 	justify-content: center;
 	align-items:  center;
 }
+.text-box {
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(174, 95, 240, 0.65);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
 
 h1{
-	display: block; 
-	font-size: 2em; 
+	display: flex; 
+	font-size: 3em; 
 	font-weight: bold;
 	font-family: Garamond, serif;
+    position: absolute;
 }
 h3{
 	display: block;
@@ -39,11 +59,10 @@ button{
     border:none;
     text-align:center;
     color: white;
-    background-color:rgb(30, 66, 16);
-    transition: 2s;
+    background-color:rgb(255, 0, 212);
 }
 button:hover{
-    background-color:rgb(4, 39, 22);
+    background-color:rgb(195, 0, 255);
 
 }
 .backgroundgif{
@@ -73,27 +92,32 @@ button:hover{
 .face{
 	position: absolute;
     max-width: 100%;
-    background-image: url('img/happyface.png');
-    width:"500px" ;
-    height:"700px";
-}
-.face:hover{
-
 }
 .pillow{
 	position:absolute;
     max-width: 100%;
 }
+.ipod{
+	position:absolute;
+    max-width: 100%;
+}
+
 .bug{
 	position:absolute;
     max-width: 100%;
+    animation-name: fly;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 
 }
 .veryangry{
 	position:absolute;
     max-width: 100%;
-    height: 70%;
-    width: 50%;
+    animation-name: rattle;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .angry{
 	position:absolute;
@@ -101,7 +125,17 @@ button:hover{
     height: 70%;
     width: 50%;
 }
+.alarm{
+	position:absolute;
+    max-width: 100%;
+    animation-name: rattle;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
 
+/* keyframes main*/
 @keyframes breathing{
     from{transform: scaleY(1);}
     to{transform: scaleY(1.1);}
@@ -110,3 +144,14 @@ button:hover{
     from{transform: scaleY(1);}
     to{transform: scaleY(1.05);}
 }
+@keyframes rattle{
+    from{transform:translateX(0px);}
+    to{transform: translateX(2px);}
+
+}
+@keyframes fly{
+    from{transform:translate3D(-800px,0px,0px);}
+    to{transform: translate3D(1000px,200px,0px);}
+
+}
+
