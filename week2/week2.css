@@ -1,0 +1,58 @@
+/***Title*/
+
+h1{
+    display: block; 
+	font-size: 3em; 
+	font-weight: bold;
+	font-family: 'Nova Flat';
+    position: absolute;
+    top: 1cm;
+    text-align: center;
+    opacity: 70%;
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+h3{
+	display: block;
+    font-size: 1.37em;
+	font-family: Garamond, serif;
+    position: absolute;
+    top: 3.5cm;
+    text-align: center;
+}
+
+div.absolute {
+  position:absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body{
+    background-color: rgb(70, 148, 93);
+    width: 100%;
+    height: 100%;
+    color: pink;
+    text-align: center;
+    display: flex;
+	font-style: italic;
+	justify-content: center;
+	align-items:  center;
+    height: 100%;
+    overflow: hidden;
+}
+.backgroundimg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@keyframes float{
+    from{transform:translateY(-15px);}
+    to{transform:translateY(0px);}
+  
+  }
