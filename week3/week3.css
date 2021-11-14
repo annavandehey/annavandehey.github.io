@@ -1,0 +1,81 @@
+/***Title*/
+#mygrid{
+	display:grid;
+	grid-template-columns:50% 50%;
+	grid-template-rows:35vw 35vw 35vw;
+	margin:3vw;
+}
+
+#logo-holder {position:relative; width:100%; height:100%;}
+#logo-holder .image,
+#logo-holder .text {transition: opacity 0.5s ease-in-out;}
+#logo-holder .text {position:absolute; top: 4cm;; opacity:0; display: block; font-size: 24pt; font-family: Garamond, serif; color: thistle; text-align: center;}
+
+#logo-holder:hover .image {opacity:0;}
+#logo-holder:hover .text {opacity:1;}
+
+h1{
+    display: block; 
+	font-size: 3em; 
+	font-weight: bold;
+	font-family: 'Nova Flat';
+    position: absolute;
+    background-color: white;
+    top: 0cm;
+    color: rgb(141, 26, 122);
+    text-align: center;
+    animation-name: float;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+h3{
+	display: block;
+    font-size: 1.37em;
+	font-family: Garamond, serif;
+    position: absolute;
+    top: 3.5cm;
+    text-align: center;
+    color: white;
+}
+
+div.absolute {
+  position:absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#slide3{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(149, 146, 194);
+	font-family: Garamond, serif;
+	text-align: justify;
+    color: white;
+    font-size: 24pt;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 1cm;
+    
+}
+body{
+    background-color: rgb(149, 146, 194);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    height: 100%;
+}
+.backgroundimg{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@keyframes float{
+    from{transform:translateY(-10px);}
+    to{transform:translateY(0px);}
+  
+  }
