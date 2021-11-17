@@ -1,0 +1,14 @@
+button{
+    margin:5vw;
+    width:10vw;
+    height:6vw;
+    border-radius:10px;
+    font-size:2vw;
+    border:none;
+    text-align:center;
+    color: white;
+    background-color:rgb(0, 0, 0);
+}
+button:hover{
+    background-color:rgb(15, 40, 77);
+}
