@@ -1,14 +1,23 @@
 <html>
-    <head>
-        <title> The Button </title>
-        <meta name="viewport" content="user-scalable=no">
-        <meta charset="utf-8">
-        <link rel = "stylesheet" href="thebutton.css">
-        <script src="thebutton.js" defer></script>
-    </head>
+
+	<head>
+    <title> The Button </title>
+  	<link href="https://fonts.googleapis.com/css?family=Spartan|Trade+Winds&display=swap" rel="stylesheet">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="thebutton.css">
+    <script src="thebutton.js" defer></script>
+
 
     <body>
-        <h1> Don't press the button!</h1>
-        <button id="firstbutton">BUTTON</button></a>
-    </body>
-</html>
+        <script type="text/javascript">
+        int clicks = 0;
+        function click() {
+            clicks += 1;
+            document.getElementById("clicks").innerHTML = clicks;
+        };
+        </script>
+        <button type="button" onClick="onClick()">Click me</button>
+        <p>Clicks: <a id="clicks">0</a></p>
+    
+</body></html>
