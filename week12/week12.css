@@ -1,19 +1,26 @@
 
 
 /* basic styles */
+body{
+    overflow: hidden;
+}
 h1{
     display: block; 
 	font-size: 3em; 
 	font-weight: bold;
-	font-family: 'Nova Flat';
+	font-family: 'Courier New', Courier, monospace;
     position: absolute;
-    top: 1cm;
+    top: 0cm;
+    left: 35%;
     color: white;
 }
 p {
-    text-align: center;
     font-size: 60px;
-    margin-top: 0px;
+    text-align: center;
+    margin-top: 40%;
+    left: 35%;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 div { 
