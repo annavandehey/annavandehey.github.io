@@ -1,0 +1,26 @@
+
+.body {
+    text-align: center;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-size: 30px;
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    height: 100%;
+    margin: 0px;
+    overflow: hidden;
+    color: #fff;
+    text-transform: uppercase;
+}
+  
+.sleep {
+    background-image: url(references/sleep.gif);
+  }
+  
+.school {
+    background-image: url(references/geo.gif);
+} 
+.free {
+    background-image: url(references/free.gif);
+}

@@ -12,11 +12,12 @@ function onClick() {
   document.getElementById("clicks").innerHTML = clicks;
 };
 
-function makeDo(){
+
+if onClick=1
     console.log("You clicked the button!");
     theBody.style.backgroundColor = "green";
     theBody.style.color = "white"
-    thePara.textContent = "you presesed the button once!"
+    thePara.textContent = "why did you press it?"
    
 }
 function makeDo2(){
