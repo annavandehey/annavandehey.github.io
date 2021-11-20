@@ -1,20 +1,12 @@
-if (typeof window === 'object') {
-    // Check if document is finally loaded
-       document.addEventListener("DOMContentLoaded", function () {
-           alert('Finished loading')
-         });
-      }
-      
-$(document).ready(function(){
+
 	var d = new Date();
 	var n = d.getHours();
-	if (n > 19 || n < 6)
-	  // If time is after 7PM or before 6AM, apply night theme to ‘body’
-	  document.body.className = "night";
-	else if (n > 16 && n < 19)
-	  // If time is between 4PM – 7PM sunset theme to ‘body’
-	  document.body.className = "sunset";
+	if (n > 22 || n < 7)
+	  // If time is after 10PM or before 7AM, apply night theme to ‘sleep’
+	  document.body.className = "sleep";
+	else if (n > 8 && n < 16)
+	  // If time is between 8PM – 4PM sunset theme to ‘body’
+	  document.body.className = "school";
 	else
-	  // Else use ‘day’ theme
-	  document.body.className = "day";
-});
+	  // Else use ‘free time’ theme
+	  document.body.className = "free";

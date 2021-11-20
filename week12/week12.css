@@ -11,9 +11,11 @@ div {
   border-radius: 7px;
   background: rgba(12, 12, 12, 0.4); 
   color: #5a4d4d;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* backgrounds */
-.day { background: url('references/free.gif'); }
-.sunset { background: url('references/geo.gif'); }
-.night { background: url('references/sleep.gif'); }
+.free { background: url('references/free.gif'); background-repeat: no-repeat; background-position: center; background-size: 70%;}
+.school { background: url('references/geo.gif'); background-repeat: no-repeat; background-position: center; background-size: 70%;}
+.sleep { background: url('references/sleep.gif'); background-repeat: no-repeat; background-position: center; background-size: 70%;}
