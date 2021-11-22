@@ -9,9 +9,8 @@ h1{
 	font-size: 3em; 
 	font-weight: bold;
 	font-family: 'Courier New', Courier, monospace;
-    position: absolute;
+    position:absolute;
     top: 0cm;
-    left: 35%;
     color: white;
     animation-name: float;
     animation-duration: 5s;
