@@ -13,6 +13,10 @@ h1{
     top: 0cm;
     left: 35%;
     color: white;
+    animation-name: float;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 p {
     font-size: 60px;
@@ -21,6 +25,7 @@ p {
     left: 35%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+
 }
 
 div { 
@@ -49,3 +54,13 @@ div {
     background-repeat: no-repeat; 
     background-position: center;
     background-size: 70%;}
+
+@keyframes float{
+    from{transform:translateY(-15px);}
+    to{transform:translateY(0px);}
+      
+}
+@keyframes rotate{
+    from{transform: rotateX(0deg);}
+    to{transform: rotateX(360deg);}
+}
