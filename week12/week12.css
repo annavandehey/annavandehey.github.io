@@ -11,6 +11,7 @@ h1{
 	font-family: 'Courier New', Courier, monospace;
     position:absolute;
     top: 0cm;
+    left: 37%;
     color: white;
     animation-name: float;
     animation-duration: 5s;
