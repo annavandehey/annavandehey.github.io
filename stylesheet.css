@@ -5,6 +5,9 @@ h1{
 	font-size: 3em; 
 	font-weight: bold;
 	font-family: 'Nova Flat';
+  position: absolute;
+  color: pink;
+  top: 1cm;
   text-align: center;
   animation-name: grow;
   animation-duration: 5s;
