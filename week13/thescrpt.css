@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000000;
+    overflow:hidden;
+    color: white;
+    text-align: center;
+    
+}
+.wrapper {
+    background-color: #000000;
+    padding: 12px;
+    width: 50%;
+    margin-top: 60%;
+    padding-top: 9cm;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+}
+.form-sub {
+    padding-top: 10%;
+}
+.line-1{
+    position: relative;
+    top: 50px;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 280%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+button{
+    margin:5vw;
+    width:10vw;
+    height:6vw;
+    border-radius:10px;
+    font-size:2vw;
+    border:none;
+    text-align:center;
+    color: white;
+    background-color:rgb(107, 68, 180);
+}
+button:hover{
+    background-color:rgb(118, 152, 204);
+}
+/* hidden images */
+.hidden1{
+    top: 100px;
+    left: 130px;
+
+}
+.hidden2{
+    top:50px;
+    left: 70px;
+}
+/* Animation Reference online */
+.anim-typewriter{
+    animation: typewriter 6s steps(45) 1s 1 normal both,
+               blinkTextCursor 1s steps(45) 1s infinite normal;
+  }
+
+.anim-typewriter2{
+    animation: typewriter 6s steps(45) 7s 1 normal both,
+               blinkTextCursor 1s steps(45) 1s infinite normal;
+}
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 20em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
