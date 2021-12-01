@@ -90,6 +90,19 @@ body{
 	font-family: Garamond, serif;
 	text-align: center;
 }
+#slide3{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(149, 146, 194);
+	font-family: Garamond, serif;
+	text-align: justify;
+    color: white;
+    font-size: 24pt;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 1cm;
+    
+}
 button{
     margin:5vw;
     width:10vw;
