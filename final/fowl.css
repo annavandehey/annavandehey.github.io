@@ -45,7 +45,7 @@ html, body{
   right: 30%;
   background-color: rgba(105, 162, 172, 0.65);
   font-family: "Dekko";
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 22px;
   text-align: center;
   padding-left: 20px;
@@ -60,7 +60,7 @@ html, body{
     right: 30%;
     background-color: rgba(105, 162, 172, 0.83);
     font-family: "Dekko";
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 22px;
     text-align: center;
     padding-left: 20px;
@@ -100,13 +100,58 @@ button:hover{
 .form-sub {
     padding-top: 10%;
 }
+/* body parts and main image parts */
+.chest{
+    position:absolute;
+    max-width: 100%;
+    animation-name: breathing;
+    bottom:-1%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+}
+.else{
+	position: absolute;
+    max-width: 100%;
+    bottom: -1%;
+}
+.text {
+    font-family: 'Dekko';
+    font-size: 22px;
+    word-spacing: 0.2em;
+    margin-left: 30%;
+    margin-right: 30% ;
+    background: #fff;
+    padding: 1em;
+    position:relative;
+    line-height: 1.2em;
+    padding: 3em;
+}
+.corner {
+    position:absolute;
+    width: 10vw;
+    right:2vw;
+    bottom:0;
+    transform: translateY(80%); 
+}
+/* text span vioce box */
+.text span{
+    opacity: 0;
+}
+.text span.revealed{
+    opacity: 1;
+}
+.text span.pink{
+    color:cadetblue;
+}
 
 
 
 /* keyframes main*/
 @keyframes breathing{
     from{transform: scaleY(1);}
-    to{transform: scaleY(1.1);}
+    to{transform: scaleY(.97);}
 }
 @keyframes breathingsub{
     from{transform: scaleY(1);}
