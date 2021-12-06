@@ -12,6 +12,7 @@ function getUserName() {
     } else {
         //alert(nameField);
         result.textContent = 'Welcome ' + nameField +'. We are so glad to meet you.'
+        // clearing the page
         var myobj = document.getElementById("nameForm");
         var newobj = document.getElementById("text1");
         var newobj2 = document.getElementById("text2");
