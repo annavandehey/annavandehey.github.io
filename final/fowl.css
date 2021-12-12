@@ -178,6 +178,47 @@ button:hover{
     height: 130px;
     width: 95px;
 }
+.phone{
+    position: absolute;
+    max-width: 100%;
+    bottom: 9%;
+    left: 65%;
+    height: 125px;
+    width: 90px;
+    z-index: 1;
+    opacity: 100%; 
+    height: 125px; 
+    width: 90px
+}
+.phone:hover {
+    height: 130px;
+    width: 95px;
+}
+
+.purse{
+    position: absolute;
+    max-width: 100%;
+    bottom: 27%;
+    left: 38%;
+    z-index: 1;
+    opacity: 100%; 
+}
+.meals{
+    position: absolute;
+    max-width: 100%;
+    bottom: 12%;
+    left: 12%;
+    z-index: 1;
+    opacity: 100%; 
+}
+.window{
+    position: absolute;
+    max-width: 100%;
+    bottom: 49%;
+    left: 0%;
+    z-index: 1;
+    opacity: 100%; 
+}
 
 
 /* text span vioce box */
