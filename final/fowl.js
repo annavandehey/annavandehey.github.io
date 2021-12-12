@@ -26,7 +26,7 @@ var speeds = {
 };
 
 var textLines = [
-   { speed: speeds.normal, string: "You're going to love this restaurant!" },
+   { speed: speeds.fast, string: "You're going to love this restaurant!" },
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.fast, string: "They have the best bakery in the city!" },
 ];

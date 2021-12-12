@@ -26,11 +26,11 @@ var speeds = {
 };
 
 var textLines = [
-   { speed: speeds.normal, string: "I'm sorry I'm late!" },
+   { speed: speeds.fast, string: "I'm sorry I'm late!" },
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.fast, string: "Traffic was so hectic." },
    { speed: speeds.pause, string: "", pause: true },
-   { speed: speeds.fast, string: "It's so great to finally meet you."},
+   { speed: speeds.superFast, string: "It's so great to finally meet you."},
 ];
 
 
