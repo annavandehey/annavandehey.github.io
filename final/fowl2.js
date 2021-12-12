@@ -1,4 +1,4 @@
-console.log("theMessage is here! (the javascript is here)")
+console.log("theMessage is here! (the javascript is here in fowl1)")
 
 
 //  the function which handles the input field logic (var is nameField)
@@ -22,13 +22,14 @@ var speeds = {
    slow: 120,
    normal: 90,
    fast: 40,
-   superFast: 10
+   superFast: 30
 };
 
 var textLines = [
-   { speed: speeds.normal, string: "You're going to love this restaurant!" },
+   { speed: speeds.superFast, string: "Oh, I think I'm going to decide after they bring out the complementary bread." },
    { speed: speeds.pause, string: "", pause: true },
-   { speed: speeds.fast, string: "They have the best bakery in the city!" },
+   { speed: speeds.fast, string: "I always fill up before my meal even gets here!" },
+
 ];
 
 
