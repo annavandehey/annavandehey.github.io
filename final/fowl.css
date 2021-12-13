@@ -151,6 +151,13 @@ button:hover{
     bottom:0;
     transform: translateY(80%); 
 }
+.corner2 {
+    position:absolute;
+    width: 10vw;
+    right:2vw;
+    bottom:60%;
+    transform: translateY(80%); 
+}
 .walking {
     position: absolute;
     top: 80%;
@@ -219,6 +226,13 @@ button:hover{
     z-index: 1;
     opacity: 100%; 
 }
+.shake{
+    animation-name: rattle;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction:both;
+}
 
 
 /* text span vioce box */
@@ -245,7 +259,7 @@ button:hover{
 }
 @keyframes rattle{
     from{transform:translateX(0px);}
-    to{transform: translateX(2px);}
+    to{transform: translateX(1px);}
 
 }
 @keyframes walking{
