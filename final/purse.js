@@ -26,7 +26,7 @@ var speeds = {
 };
 
 var textLines = [
-   { speed: speeds.superFast, string: "Truthfully, I'm not a big fan of my job" },
+   { speed: speeds.superFast, string: "Truthfully, I'm not a big fan of my job." },
    { speed: speeds.pause, string: "", pause: true },
    { speed: speeds.fast, string: "I seem to be the butt of every joke." },
    { speed: speeds.pause, string: "", pause: true },
